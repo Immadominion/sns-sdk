@@ -12,7 +12,7 @@ void main() {
     setUpAll(() {
       // Use the exact same setup as working debug script
       final rpc = EnhancedSolanaRpcClient(
-          'https://mainnet.helius-rpc.com/?api-key=d0aa186c-2365-4d7b-9f45-b330bef3bf8a');
+          'https://solana-api.projectserum.com');
       connection = SnsClient(rpc);
     });
 
